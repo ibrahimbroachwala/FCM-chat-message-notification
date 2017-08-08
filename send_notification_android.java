@@ -1,4 +1,7 @@
 
+
+//Add this code in then OnClickListener of your send message button. 
+
 //mChatuser is the one who receives the notification
 mRootref.child("Users").child(mChatuser).child("online").addListenerForSingleValueEvent(new ValueEventListener() {
                             @Override
