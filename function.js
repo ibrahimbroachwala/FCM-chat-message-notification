@@ -54,7 +54,7 @@ admin.initializeApp(functions.config().firebase);
       };
 
       /*Sending payload to device token id we retrieved
-	/*
+	*/
 
       return admin.messaging().sendToDevice(mtoken_id, mpayload).then(response => {
 
